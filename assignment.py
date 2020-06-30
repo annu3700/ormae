@@ -49,7 +49,7 @@ def save_data_to_mongo(data):
         else:
             insert_data(comment)
 
-    sleep(0.1)
+    sleep(0.5)
 
 if __name__=="__main__":    
     while True:
